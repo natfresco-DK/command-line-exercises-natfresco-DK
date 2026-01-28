@@ -5,6 +5,7 @@ IMPORTANT: Do ALL exercises inside ~/cli_sandbox to avoid changing important fil
 1: Create a directory "recommend" and then delete it.
 mkdir recommend
 rm -r recommned
+
 2: Create two directories "medal" and "terminal" and move into "terminal".
 
 3: Create a file "evaluate.txt" containing: "rain evaluate recommend evaluate discover". Then search recursively for "evaluate".
