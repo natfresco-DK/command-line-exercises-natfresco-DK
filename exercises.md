@@ -3,6 +3,7 @@ IMPORTANT: Do ALL exercises inside ~/cli_sandbox to avoid changing important fil
 2) cd ~/cli_sandbox
 
 1: Create a directory "recommend" and then delete it.
+
 mkdir recommend
 rm -r recommned
 
