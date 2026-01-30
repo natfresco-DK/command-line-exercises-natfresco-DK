@@ -10,57 +10,133 @@ rm -r recommned
 
 2: Create two directories "medal" and "terminal" and move into "terminal".
 
+mkdir medal
+
+mkdir terminal
+
+cd terminal
+
 3: Create a file "evaluate.txt" containing: "rain evaluate recommend evaluate discover". Then search recursively for "evaluate".
+
+touch evaluate.txt
+
+echo > evaluate.txt
+
+grep -r "evaluate"
 
 4: Output who the active user is.
 
+whoami
+
 5: Change directory to "cli_sandbox".
+
+cd ..
 
 6: Change directory to "cli_sandbox".
 
+cd .
+
 7: Create a directory "needle" and then delete it.
+
+mkdir needle
+
+rm -r needle
 
 8: Delete the last folder you created.
 
+Not Possible
+
 9: Write something in a file called "bay.txt".
+
+$ echo > bay.txt "something"
 
 10: Change directory to "cli_sandbox".
 
+cd . 
+
 11: Create two directories "regret" and "plane" and move into "plane".
+
+mkdir regret
+
+mkdir plane
+
+cd plane
 
 12: Change directory to "cli_sandbox".
 
+cd ..
+
 13: Delete the last file you created.
+
+rm bay.txt
 
 14: Open a file in the terminal and see the content.
 
+cd terminal
+
+nano evaluate.txt
+
 15: Output hidden files.
+
+ls -a
 
 16: Output who the active user is.
 
+whoami
+
 17: Open a file in the terminal and see the content.
+
+cat evaluate.txt
 
 18: Delete the last file you created.
 
+rm -r evaluate.txt
+
 19: Create a directory "surprise" and then delete it.
+
+mkdir surprise
+
+rm -r surprise
 
 20: Output what's in the directory.
 
+ls
+
 21: Open a file in the terminal and see the content.
+
+nano evaluate.txt
 
 22: Create a directory "regret" and then delete it.
 
+mkdir regret
+
+rm -r regret
+
 23: Output hidden files.
+
+ls -a
 
 24: Open a file in the terminal and see the content.
 
+cat evaluate.txt
+
 25: Open a file in the terminal and see the content.
+
+cat evaluate.txt
 
 26: Open a file in the terminal and see the content.
 
+nano evaluate.txt (for some variation ;))
+
 27: Create a directory "shot" and then delete it.
 
+mkdir shot
+
+rm -r shot
+
 28: Delete the last folder you created.
+
+Not possible
 
 29: Use: echo "appreciate evaluate banish sister sister" > "on.txt" to create or overwrite "on.txt".
 
