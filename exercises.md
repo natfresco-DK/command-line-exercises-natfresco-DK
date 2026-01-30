@@ -140,27 +140,59 @@ Not possible
 
 29: Use: echo "appreciate evaluate banish sister sister" > "on.txt" to create or overwrite "on.txt".
 
+Not possible
+
 30: Create a file "plane.txt" containing: "appreciate support plane rain surprise". Then search recursively for "plane".
+
+echo > plane.txt "appreciate support plane rain surprise" 
+
+grep -r plane
 
 31: Output the full path you are on.
 
+pwd
+
 32: Create a directory "appreciate" and then delete it.
+
+mkdir appreciate
+
+rm -r appreciate
 
 33: Create a file "correspondence.txt" containing: "recommend advantage recommend excuse recommend". Then output the sorted lines.
 
+ echo > correspondence.txt "recommend advantage recommend excuse recommend"
+
+cat correspondence.txt
+
 34: Output hidden files.
+
+ls -a
 
 35: Output what's in the directory.
 
+ls
+
 36: Delete the last folder you created.
+
+rm -r regret
 
 37: Delete the last file you created.
 
+rm corrospondence.txt
+
 38: Create two directories "experienced" and "sister" and move into "sister".
+
+mkdir experienced sister
+
+cd sister 
 
 39: Create a folder named "cli_sandbox".
 
+mkdir cli_sandbox
+
 40: Create a file called "recession.txt".
+
+touch recession.txt
 
 41: Create a directory "shot" and then delete it.
 
