@@ -264,9 +264,10 @@ echo "relative relative medal panel rain" > "shot.txt"
 
 55: Create a file "degree.txt" containing: "architecture advantage architecture recommend architecture". Then output the unique lines.
 
-touch degree.txt > "architecture advantage architecture recommend architecture"
+echo "architecture advantage architecture recommend architecture" > degree.txt
 
 uniq degree.txt
+
 
 56: Output who the active user is.
 
@@ -360,97 +361,217 @@ wc
 
 77: Use: echo "cater banish ethics shot experienced" > "appreciate.txt" to create or overwrite "appreciate.txt".
 
+echo "cater banish ethics shot experienced" > "appreciate.txt"
+
 78: Move two folders up (but never leave "cli_sandbox").
+
+not possible
 
 79: Output who the active user is.
 
+whoami
+
 80: Delete the last folder you created.
+
+not possible
 
 81: Output who the active user is.
 
+whoami
+
 82: Output the full path you are on.
+
+pwd
 
 83: Output what's in the directory.
 
+ls
+
 84: Create two directories "plane" and "degree" and move into "degree".
+
+mkdir plane degree
 
 85: Create a file called "recommend.txt" and immediately delete it.
 
+mkdir recommend.txt
+
+rm recommend.txt
+
 86: If already inside "cli_sandbox", create a directory "discover" and move into the directory.
+
+mkdir discover
+
+cd discover
 
 87: If there are any directories in the current folder, then move inside any one of them.
 
+not possible
+
 88: Move one level up (stay inside "cli_sandbox").
+
+cd ..
 
 89: Open a file in the terminal and see the content.
 
+nano degree.txt
+
 90: Create a file called "rider.txt" and immediately delete it.
+
+mkdir rider.txt
+
+rm rider.txt
 
 91: Output the full path you are on.
 
+pwd
+
 92: Create a folder named "cli_sandbox".
+
+mkdir cli_sandbox
 
 93: Output the full path you are on.
 
+pwd
+
 94: Delete the last file you created.
+
+rm -r degree.txt
 
 95: Write something in a file called "advantage.txt".
 
+echo "something" > advantage.txt
+
 96: Change directory to "cli_sandbox".
+
+cd cli_sandbox/
 
 97: If there are any directories in the current folder, then move inside any one of them.
 
+not possible
+
 98: Create a file called "architecture.txt" containing these words (one per line): "on appreciate on difficulty on". Then count the lines.
+
+echo on > architecture.txt
+echo appreciate >> architecture.txt
+echo on >> architecture.txt
+echo difficult >> architecture.txt
+echo on >> architecture.txt
+
+wc -l architecture.txt
 
 99: Create a file "recession.txt" containing: "on cater on needle on". Then output the sorted lines.
 
+echo "on cater on needle on" > recession.txt
+
+sort recession.txt
+
 100: Create a folder named "cli_sandbox".
+
+mkdir cli_sandbox
 
 101: Create a directory "correspondence" and then delete it.
 
+mkdir correspondence
+
+rm -r correspondence
+
 102: Output hidden files.
+
+ls -a
 
 103: Output the full path you are on.
 
+pwd
+
 104: Create a file called "regret.txt".
+
+touch regret.txt
 
 105: Create a directory "shot" and then delete it.
 
+mkdir shot
+
+rm -r shot
+
 106: Open a file in the terminal and see the content.
+
+nano regret.txt
 
 107: Create two directories "banish" and "recession" and move into "recession".
 
+mkdir banish recession
+
+cd recession
+
 108: Create a file called "hill.txt".
+
+touch hill.txt
 
 109: Open a file in the terminal and see the content.
 
+nano hill.txt
+
 110: Create a file "beat.txt" containing: "pray rain correspondence beat sister". Then search recursively for "beat".
+
+echo "pray rain correspondence beat sister" > beat.txt
+
+grep -r beat
 
 111: Output what's in the directory.
 
+ls
+
 112: Delete the last file you created.
+
+rm beat.txt
 
 113: Create a folder named "cli_sandbox".
 
+mkdir cli_sandbox
+
 114: Create a directory "evaluate" and then delete it.
+
+mkdir evaluate
+
+rm -r evaluate
 
 115: Write something in a file called "experienced.txt".
 
+echo "something" > experienced.txt
+
 116: Move two folders up (but never leave "cli_sandbox").
+
+cd ../..
 
 117: If already inside "cli_sandbox", create a directory "stock" and move into the directory.
 
+not possible cli_sandbox already exists.
+
 118: Output what's in the directory.
+
+pwd
 
 119: Delete the last folder you created.
 
+cd cli_sandbox/recession
+
+rm -r cli_sandbox
+
 120: If there are any directories in the current folder, then move inside any one of them.
+
+not possible
 
 121: Output the content of any file in the directory.
 
+cat hill.txt
+
 122: If there are any directories in the current folder, then move inside any one of them.
 
+not possible
+
 123: Output hidden files.
+
+ls -a
 
 124: Open a file in the terminal and see the content.
 
