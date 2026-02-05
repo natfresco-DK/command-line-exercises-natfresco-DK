@@ -575,75 +575,161 @@ ls -a
 
 124: Open a file in the terminal and see the content.
 
+nano advantage.txt
+
 125: Output the full path you are on.
+
+pwd
 
 126: Delete the last folder you created.
 
+rm -r plane
+
 127: Create two directories "ethics" and "pioneer" and move into "pioneer".
+
+mkdir ethics pioneer
 
 128: Delete the last file you created.
 
+rm -r advantage.txt
+
 129: Create a directory "plane" and then delete it.
+
+mkdir plane
+
+rm -r plane
 
 130: Output what's in the directory.
 
+ls
+
 131: Create a file called "interference.txt" and immediately delete it.
+
+touch interference.txt
+
+rm interference.txt
 
 132: Open a file in the terminal and see the content.
 
+nano appreciate.txt
+
 133: Output what's in the directory.
+
+ls
 
 134: Create a file called "correspondence.txt" and immediately delete it.
 
+touch correspondence.txt
+
+rm correspondence.txt
+
 135: Create a folder named "cli_sandbox".
+
+mkdir cli_sandbox
 
 136: Delete the last folder you created.
 
+rm -r cli_sandbox
+
 137: Use: echo "medal identity depression degree terminal" > "correspondence.txt" to create or overwrite "correspondence.txt".
+
+echo "medal identity depression degree terminal" > "correspondence.txt"
 
 138: Change directory to "cli_sandbox".
 
+cd cli_sandbox
+
 139: Write something in a file called "pen.txt".
+
+echo "something" > pen.txt
 
 140: Use: echo "appreciate beat ethics correspondence proportion" > "architecture.txt" to create or overwrite "architecture.txt".
 
+echo "appreciate beat ethics correspondence proportion" > "architecture.txt"
+
 141: Output the sizes of the files in the directory.
+
+ls -sh
 
 142: Create a file "speculate.txt" containing: "speculate support honor salvation rider". Then search recursively for "speculate".
 
+echo "speculate support honor salvation rider" > speculate.txt
+
+grep -r speculate
+
 143: Output what's in the directory.
+
+ls
 
 144: Output the content of any file in the directory.
 
+cat advantage.txt
+
 145: Use: echo "pray advice regret recommend shallow" > "proportion.txt" to create or overwrite "proportion.txt".
+
+echo "pray advice regret recommend shallow" > "proportion.txt"
 
 146: Move one level up (stay inside "cli_sandbox").
 
+not possible
+
 147: Create a file "proportion.txt" containing: "ditch banish ditch appreciate ditch". Then output the sorted lines.
+
+echo "ditch banish ditch appreciate ditch" > proportion.txt
+
+sort proportion.txt
 
 148: Output who the active user is.
 
+whoami
+
 149: Change directory to "cli_sandbox".
+
+cd .
 
 150: Create a file called "ethics.txt" containing these words (one per line): "banish rain banish honor banish". Then count the lines.
 
+echo banish > ethics.txt
+echo rain >> ethics.txt
+echo banish >> ethics.txt
+echo honor >> ethics.txt
+echo banish >> ethics.txt
+
 151: Open a file in the terminal and see the content.
+
+nano ethics.txt
 
 152: Output what's in the directory.
 
+ls
+
 153: Output what's in the directory.
+
+ls
 
 154: Output who the active user is.
 
+whoami
+
 155: Open a file in the terminal and see the content.
+
+nano ethics.txt
 
 156: Use: echo "terminal cater rain interference shot" > "beat.txt" to create or overwrite "beat.txt".
 
+echo "terminal cater rain interference shot" > "beat.txt"
+
 157: Use: echo "correspondence shot ethics experienced advantage" > "ditch.txt" to create or overwrite "ditch.txt".
+
+echo "correspondence shot ethics experienced advantage" > "ditch.txt"
 
 158: Create a folder named "cli_sandbox".
 
+mkdir cli_sandbox
+
 159: Move two folders up (but never leave "cli_sandbox").
+
+
 
 160: Move two folders up (but never leave "cli_sandbox").
 
