@@ -695,6 +695,8 @@ echo banish >> ethics.txt
 echo honor >> ethics.txt
 echo banish >> ethics.txt
 
+wc -l ethics.txt
+
 151: Open a file in the terminal and see the content.
 
 nano ethics.txt
@@ -729,39 +731,85 @@ mkdir cli_sandbox
 
 159: Move two folders up (but never leave "cli_sandbox").
 
-
+cd ../..
 
 160: Move two folders up (but never leave "cli_sandbox").
 
+cd ../..
+
 161: Move two folders up (but never leave "cli_sandbox").
+
+cd ../..
 
 162: Output hidden files.
 
+ls -a
+
 163: Create a file "plane.txt" containing: "plane advantage ditch salvation medal". Then search recursively for "plane".
+
+echo "plane advantage ditch salvation medal" > plane.txt
+
+grep -r plane
 
 164: Output the full path you are on.
 
+pwd
+
 165: Create a file "experienced.txt" containing: "excuse banish excuse appreciate excuse". Then output the unique lines.
+
+echo "excuse banish excuse appreciate excuse" > experienced.txt
 
 166: Create a file called "support.txt".
 
+touch support.txt
+
 167: Create a file called "beat.txt" containing these words (one per line): "plane regret plane rain plane". Then count the lines.
+
+echo plane > beat.txt
+echo regret >> beat.txt
+echo plane >> beat.txt
+echo rain >> beat.txt
+echo plane >> beat.txt
+
+wc -l beat.txt
 
 168: Create a file called "rain.txt".
 
+touch rain.txt
+
 169: Create a folder named "cli_sandbox".
+
+mkdir cli_sandbox
 
 170: If already inside "cli_sandbox", create a directory "ethics" and move into the directory.
 
+mkdir ethics
+
+cd ethics
+
 171: Output hidden files.
+
+ls -a
 
 172: Write something in a file called "interference.txt".
 
+echo "something" > interference.txt
+
 173: If already inside "cli_sandbox", create a directory "honor" and move into the directory.
+
+mkdir honor
+
+cd honor
 
 174: Create a directory "plane" and then delete it.
 
+mkdir plane
+
+rm -r plane
+
 175: Create a folder named "cli_sandbox".
+
+
 
 176: Create a file called "relative.txt" and immediately delete it.
 
